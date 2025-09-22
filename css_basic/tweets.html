@@ -4,13 +4,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="base.css">
-    <title>Document</title>
+    <title>My Tweets</title>
 </head>
 
 <body>
+    <!-- Header with navigation -->
+    <header>
+        <ul>
+            <li><a href="base_index.html">Home</a></li>
+            <li><a href="tweets.html">Tweets</a></li>
+        </ul>
+    </header>
 
+    <!-- Main content -->
+    <main>
+        <article>
+            <h1>My Tweets Page</h1>
+
+            <!-- Embedded Tweet -->
+            <blockquote class="twitter-tweet">
+                <p lang="en" dir="ltr">
+                    Just an example tweet embed 🚀 #Learning
+                </p>
+                &mdash; Twitter Dev (@TwitterDev)
+                <a href="https://twitter.com/TwitterDev/status/560070183650213889?ref_src=twsrc%5Etfw">January 27,
+                    2015</a>
+            </blockquote>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+            <!-- Back to homepage link (optional since header already has it) -->
+            <p><a href="base_index.html">Back to Homepage</a></p>
+        </article>
+
+        <aside>
+            <p>placeholder to add comment thread later</p>
+        </aside>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>Made by David Smith - <a href="https://github.com" target="_blank">here</a></p>
+    </footer>
 </body>
 
 </html>
