@@ -1,25 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    display: flex;
-    flex-direction: column;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #fff;
 }
 
-main {
-    display: flex;
-    flex-direction: row;
-    flex: auto;
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
 
-article {
-    flex: 2;
-    overflow: auto;
+il {
+    list-style: none;
 }
 
-aside {
-    flex: 1;
-    overflow: auto;
+a {
+    text-decoration: none;
+    color: inherit;
 }
 
-.logo {
-    padding: 25px auto;
-    color: red;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bold;
+    line-height: 1.2;
 }

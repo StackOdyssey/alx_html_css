@@ -1,25 +1,141 @@
+/*Start of basic settings for the all webpage*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #f7f7f7;
+    /* background-color: #fff; */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+ul il {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    /* color: inherit; */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+/*end of basic settings for the all webpage*/
+
+.hero-section {
+    display: flex;
+    justify-content: center;
+    background-image: url("assets/background.png");
+    background-size: cover;
+    background-position: top;
+    /* margin-top: -80px; */
+    height: 1000px;
+    position: relative;
+    background-repeat: no-repeat;
+
+}
+
+.list-menu {
+    display: flex;
+    gap: 60px;
+    list-style-type: none;
+}
+
+.list-menu li a {
+    color: aliceblue;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.menu-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-menu {
+    width: 100%;
+    padding: 20px 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.title_content {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    row-gap: 30px;
+    color: aliceblue;
 }
 
-main {
+.hero-title {
+    font-size: 125px;
+    color: aliceblue;
+    text-align: center;
+}
+
+.words-3 {
+    word-spacing: 20px;
+    color: aliceblue;
+    font-size: 25px;
+}
+
+.hero-content {
+    height: 800px;
+}
+
+.title_content button {
+    padding: 15px 30px;
+    background-color: purple;
+    font-size: 20px;
+    color: aliceblue;
+    border: none;
+    border-radius: 50px;
+}
+
+h2 span {
+    color: purple;
+}
+
+.avatars {
     display: flex;
     flex-direction: row;
-    flex: auto;
+    justify-content: space-between;
+    align-items: center;
+    bottom: ;
+    gap: 40px;
+    position: absolute;
+    left: 20%;
+    right: 20%;
+    transform: translateX(50%);
+    transform: translateY(-120%);
+    margin-top: -50px;
 }
 
-article {
-    flex: 2;
-    overflow: auto;
-}
-
-aside {
-    flex: 1;
-    overflow: auto;
-}
-
-.logo {
-    padding: 25px auto;
-    color: red;
+.avatars p,
+h3 {
+    color: aliceblue;
 }
