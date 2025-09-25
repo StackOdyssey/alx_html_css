@@ -97,6 +97,13 @@ h6 {
     text-align: center;
 }
 
+.hero-title:hover {
+    font-size: 125px;
+    color: purple;
+    text-align: center;
+    background-color: white;
+}
+
 .words-3 {
     word-spacing: 20px;
     color: aliceblue;
@@ -110,6 +117,15 @@ h6 {
 .title_content button {
     padding: 15px 30px;
     background-color: purple;
+    font-size: 20px;
+    color: aliceblue;
+    border: none;
+    border-radius: 50px;
+}
+
+.title_content button:hover {
+    padding: 15px 30px;
+    background-color: rgba(128, 0, 128, 0.503);
     font-size: 20px;
     color: aliceblue;
     border: none;
