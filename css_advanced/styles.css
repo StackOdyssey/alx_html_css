@@ -114,26 +114,18 @@ h6 {
     height: 800px;
 }
 
-.title_content button {
-    padding: 15px 30px;
-    background-color: purple;
-    font-size: 20px;
-    color: aliceblue;
-    border: none;
-    border-radius: 50px;
-}
 
-.title_content button:hover {
+button:hover {
     padding: 15px 30px;
     background-color: rgba(128, 0, 128, 0.503);
-    font-size: 20px;
+    font-size: 16px;
     color: aliceblue;
     border: none;
     border-radius: 50px;
 }
 
 h2 span {
-    color: purple;
+    color: #C271FF;
 }
 
 .avatars {
@@ -141,7 +133,7 @@ h2 span {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    bottom: ;
+    /* bottom: ; */
     gap: 40px;
     position: absolute;
     left: 20%;
@@ -154,4 +146,152 @@ h2 span {
 .avatars p,
 h3 {
     color: aliceblue;
+}
+
+.testimonial {
+    display: flex;
+    padding: 150px;
+    gap: 40px;
+    background-color: #C271FF;
+    color: aliceblue;
+    align-items: center;
+}
+
+.testimonial-img {
+    border-radius: 100px;
+}
+
+.testimonial blockquote {
+    font-style: italic;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+h2 {
+    margin: 50px 50px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.videos {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+.video {
+    row-gap: 20px;
+}
+
+
+.profile-img {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    gap: 15px;
+    font-size: 12px;
+}
+
+.profile-img img {
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.stars {
+    display: flex;
+    gap: 5px;
+    color: #C271FF;
+}
+
+.stars div:last-child i {
+    color: lightgray;
+}
+
+
+.min-8 {
+    font-size: 14px;
+    color: #C271FF;
+}
+
+.review-bloc {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: space-between;
+}
+
+.membership {
+    display: flex;
+    flex-direction: column;
+    background-color: #071629;
+    padding: 150px;
+    gap: 30px;
+    color: aliceblue;
+    text-align: center;
+    align-items: center;
+
+}
+
+.membership-content {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}
+
+.purple-circle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+
+button {
+    padding: 15px 30px;
+    width: 200px;
+    background-color: #C271FF;
+    color: aliceblue;
+    font-size: 16px;
+    border: none;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 50px;
+}
+
+.faq {
+    width: 1250px;
+    margin: auto;
+}
+
+.faq-title {
+    font-size: 25px
+}
+
+.faq-content {
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    padding: 100px;
+    gap: 80px;
+}
+
+.footer-content {
+    display: flex;
+    padding: 100px 50px;
+    background-color: #071629;
+    align-items: center;
+    justify-content: space-between;
+    color: aliceblue;
+}
+
+.socials {
+    display: flex;
+    gap: 10px
 }
